@@ -1,0 +1,210 @@
+body, h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navImg{
+    height: 50px;
+}
+
+/* sunjid-header  */
+.sunjid-header span{
+    display: inline-block;
+    background-color: #6278df;
+
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    top: 5px;
+    padding: 5px;
+}
+
+.sunjid-menu .nav-link{
+     padding: 0 15px;
+     
+}
+
+.navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    font-weight: 500;
+    font-size: 25px;
+}
+/* slider section */
+.slider-section{
+    background: url('./Images/bannerImg.jpg') no-repeat center center ;
+    background-position:  cover;
+    padding: 200px 0;
+    position:relative;
+    z-index: 1;
+}
+
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,.2);
+    z-index: -1;
+}
+
+.slider-caption {}
+.slider-caption h4{
+    margin-bottom: 35px;
+}
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.slider-caption .form-control{
+    padding: 18px 20px;
+}
+
+.slider-caption .btn{
+    background:#5ba533;
+    padding:10px 20px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* about section */
+
+.about-section{
+    background-color: #F7F9FF;
+}
+.about-text-left{
+    margin-top: 120px;
+}
+
+/* feature section */
+
+.feature-item{
+    height: 300px;
+    box-shadow: 3px 5px 30px rgba(65,87,190,0.1);
+}
+
+.left-img-section{
+    width: 40%;
+    overflow: hidden;
+}
+.left-text-section{
+    width: 60%;
+    padding: 25px;
+}
+
+.left-img-section img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    /* left: 80px; */
+}
+
+/* portfolio-item */
+.portfolio-item img{
+    height: 235px;
+}
+
+
+/* common color */
+.min-section-bg{
+    background-color: #f7f9ff;
+}
+
+/* pricing table */
+
+.pricing-item{
+background-color: #fff;
+padding: 50px;
+margin: 0 55px;
+box-shadow: 3px 5px 30px rgba(65,87,190,0.1);
+}
+.pricing-item h1{
+
+}
+.pricing-item h5{
+
+}
+.pricing-item ul{
+    list-style-type: none;
+}
+.pricing-item ul li{
+    line-height: 45px;
+    color: darkgray;
+
+}
+.pricing-item ul li span{
+
+    color: #6278DF;
+    font-size: 25px; 
+    margin: 0 10px;
+  
+}
+
+.pricing-item-button{}
+.pricing-item-button a{
+    /* border-color: #6278DF; */
+    /* border-width: 2px; */
+    color: #6278DF;
+    border:none;
+    padding: 15px 30px;
+    font-size:20px;
+    box-shadow: 3px 5px 30px rgba(68, 93, 204, 0.2);
+}
+.pricing-item-button a:hover{
+    background-color: #6278DF;
+}
+.pricing-item-button .btn{
+    margin-left: 75px;
+}
+
+/* author info */
+
+.author-info{
+    width: 200px;
+    margin: auto;
+}
+.author-info img{
+    width: 85px;
+}
+
+.user-details{
+    padding-top: 10px;
+
+}
+
+
+/* about section */
+
+.about-item{
+    margin-top: 82px;
+}
+.about-item .item{}
+.about-item .card{
+    box-shadow: 3px 5px 30px rgb(68 93 204 / 20%);
+    padding: 8px 25px;
+}
+.about-item .card img{
+    width: 135px;
+    margin-top: -65px;
+    margin-left: -1px;
+    box-shadow: 3px 5px 30px rgb(68 93 204 / 20%);
+}
+
+.contact-form-div .card{
+    box-shadow: 3px 5px 30px rgba(68, 93, 204, 0.2);
+}
+
+.rest-section{
+    height:300px;
+}
+
+.handImg{
+    margin-top: 100px; 
+}
+
+.footer-section{
+    margin-top: 566px;
+}
